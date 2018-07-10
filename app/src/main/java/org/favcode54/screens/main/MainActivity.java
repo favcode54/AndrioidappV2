@@ -1,9 +1,11 @@
-package org.favcode54;
+package org.favcode54.screens.main;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import org.favcode54.R;
+import org.favcode54.core.view.CoreActivity;
+
+public class MainActivity extends CoreActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
